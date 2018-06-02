@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA30D2420C2C2D7006B0477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA30D2320C2C2D7006B0477 /* AppDelegate.swift */; };
+		3FA30D2620C2C2D7006B0477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA30D2520C2C2D7006B0477 /* ViewController.swift */; };
+		3FA30D2920C2C2D7006B0477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA30D2720C2C2D7006B0477 /* Main.storyboard */; };
+		3FA30D2B20C2C2D7006B0477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA30D2A20C2C2D7006B0477 /* Assets.xcassets */; };
+		3FA30D2E20C2C2D7006B0477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA30D2C20C2C2D7006B0477 /* LaunchScreen.storyboard */; };
+		3FA30D3920C2C2D7006B0477 /* Dennis_Van_Malder_villo_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA30D3820C2C2D7006B0477 /* Dennis_Van_Malder_villo_appTests.swift */; };
+		3FA30D4420C2C2D7006B0477 /* Dennis_Van_Malder_villo_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA30D4320C2C2D7006B0477 /* Dennis_Van_Malder_villo_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA30D3520C2C2D7006B0477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA30D1820C2C2D7006B0477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA30D1F20C2C2D7006B0477;
+			remoteInfo = "Dennis Van Malder villo app";
+		};
+		3FA30D4020C2C2D7006B0477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA30D1820C2C2D7006B0477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA30D1F20C2C2D7006B0477;
+			remoteInfo = "Dennis Van Malder villo app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA30D2020C2C2D7006B0477 /* Dennis Van Malder villo app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dennis Van Malder villo app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA30D2320C2C2D7006B0477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA30D2520C2C2D7006B0477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA30D2820C2C2D7006B0477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA30D2A20C2C2D7006B0477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA30D2D20C2C2D7006B0477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA30D2F20C2C2D7006B0477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA30D3420C2C2D7006B0477 /* Dennis Van Malder villo appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dennis Van Malder villo appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA30D3820C2C2D7006B0477 /* Dennis_Van_Malder_villo_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dennis_Van_Malder_villo_appTests.swift; sourceTree = "<group>"; };
+		3FA30D3A20C2C2D7006B0477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA30D3F20C2C2D7006B0477 /* Dennis Van Malder villo appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dennis Van Malder villo appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA30D4320C2C2D7006B0477 /* Dennis_Van_Malder_villo_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dennis_Van_Malder_villo_appUITests.swift; sourceTree = "<group>"; };
+		3FA30D4520C2C2D7006B0477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA30D1D20C2C2D7006B0477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA30D3120C2C2D7006B0477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA30D3C20C2C2D7006B0477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA30D1720C2C2D7006B0477 = {
+			isa = PBXGroup;
+			children = (
+				3FA30D2220C2C2D7006B0477 /* Dennis Van Malder villo app */,
+				3FA30D3720C2C2D7006B0477 /* Dennis Van Malder villo appTests */,
+				3FA30D4220C2C2D7006B0477 /* Dennis Van Malder villo appUITests */,
+				3FA30D2120C2C2D7006B0477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA30D2120C2C2D7006B0477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA30D2020C2C2D7006B0477 /* Dennis Van Malder villo app.app */,
+				3FA30D3420C2C2D7006B0477 /* Dennis Van Malder villo appTests.xctest */,
+				3FA30D3F20C2C2D7006B0477 /* Dennis Van Malder villo appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA30D2220C2C2D7006B0477 /* Dennis Van Malder villo app */ = {
+			isa = PBXGroup;
+			children = (
+				3FA30D2320C2C2D7006B0477 /* AppDelegate.swift */,
+				3FA30D2520C2C2D7006B0477 /* ViewController.swift */,
+				3FA30D2720C2C2D7006B0477 /* Main.storyboard */,
+				3FA30D2A20C2C2D7006B0477 /* Assets.xcassets */,
+				3FA30D2C20C2C2D7006B0477 /* LaunchScreen.storyboard */,
+				3FA30D2F20C2C2D7006B0477 /* Info.plist */,
+			);
+			path = "Dennis Van Malder villo app";
+			sourceTree = "<group>";
+		};
+		3FA30D3720C2C2D7006B0477 /* Dennis Van Malder villo appTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA30D3820C2C2D7006B0477 /* Dennis_Van_Malder_villo_appTests.swift */,
+				3FA30D3A20C2C2D7006B0477 /* Info.plist */,
+			);
+			path = "Dennis Van Malder villo appTests";
+			sourceTree = "<group>";
+		};
+		3FA30D4220C2C2D7006B0477 /* Dennis Van Malder villo appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA30D4320C2C2D7006B0477 /* Dennis_Van_Malder_villo_appUITests.swift */,
+				3FA30D4520C2C2D7006B0477 /* Info.plist */,
+			);
+			path = "Dennis Van Malder villo appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA30D1F20C2C2D7006B0477 /* Dennis Van Malder villo app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA30D4820C2C2D7006B0477 /* Build configuration list for PBXNativeTarget "Dennis Van Malder villo app" */;
+			buildPhases = (
+				3FA30D1C20C2C2D7006B0477 /* Sources */,
+				3FA30D1D20C2C2D7006B0477 /* Frameworks */,
+				3FA30D1E20C2C2D7006B0477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dennis Van Malder villo app";
+			productName = "Dennis Van Malder villo app";
+			productReference = 3FA30D2020C2C2D7006B0477 /* Dennis Van Malder villo app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA30D3320C2C2D7006B0477 /* Dennis Van Malder villo appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA30D4B20C2C2D7006B0477 /* Build configuration list for PBXNativeTarget "Dennis Van Malder villo appTests" */;
+			buildPhases = (
+				3FA30D3020C2C2D7006B0477 /* Sources */,
+				3FA30D3120C2C2D7006B0477 /* Frameworks */,
+				3FA30D3220C2C2D7006B0477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA30D3620C2C2D7006B0477 /* PBXTargetDependency */,
+			);
+			name = "Dennis Van Malder villo appTests";
+			productName = "Dennis Van Malder villo appTests";
+			productReference = 3FA30D3420C2C2D7006B0477 /* Dennis Van Malder villo appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FA30D3E20C2C2D7006B0477 /* Dennis Van Malder villo appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA30D4E20C2C2D7006B0477 /* Build configuration list for PBXNativeTarget "Dennis Van Malder villo appUITests" */;
+			buildPhases = (
+				3FA30D3B20C2C2D7006B0477 /* Sources */,
+				3FA30D3C20C2C2D7006B0477 /* Frameworks */,
+				3FA30D3D20C2C2D7006B0477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA30D4120C2C2D7006B0477 /* PBXTargetDependency */,
+			);
+			name = "Dennis Van Malder villo appUITests";
+			productName = "Dennis Van Malder villo appUITests";
+			productReference = 3FA30D3F20C2C2D7006B0477 /* Dennis Van Malder villo appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA30D1820C2C2D7006B0477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FA30D1F20C2C2D7006B0477 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3FA30D3320C2C2D7006B0477 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FA30D1F20C2C2D7006B0477;
+					};
+					3FA30D3E20C2C2D7006B0477 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FA30D1F20C2C2D7006B0477;
+					};
+				};
+			};
+			buildConfigurationList = 3FA30D1B20C2C2D7006B0477 /* Build configuration list for PBXProject "Dennis Van Malder villo app" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA30D1720C2C2D7006B0477;
+			productRefGroup = 3FA30D2120C2C2D7006B0477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA30D1F20C2C2D7006B0477 /* Dennis Van Malder villo app */,
+				3FA30D3320C2C2D7006B0477 /* Dennis Van Malder villo appTests */,
+				3FA30D3E20C2C2D7006B0477 /* Dennis Van Malder villo appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA30D1E20C2C2D7006B0477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA30D2E20C2C2D7006B0477 /* LaunchScreen.storyboard in Resources */,
+				3FA30D2B20C2C2D7006B0477 /* Assets.xcassets in Resources */,
+				3FA30D2920C2C2D7006B0477 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA30D3220C2C2D7006B0477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA30D3D20C2C2D7006B0477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA30D1C20C2C2D7006B0477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA30D2620C2C2D7006B0477 /* ViewController.swift in Sources */,
+				3FA30D2420C2C2D7006B0477 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA30D3020C2C2D7006B0477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA30D3920C2C2D7006B0477 /* Dennis_Van_Malder_villo_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA30D3B20C2C2D7006B0477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA30D4420C2C2D7006B0477 /* Dennis_Van_Malder_villo_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA30D3620C2C2D7006B0477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA30D1F20C2C2D7006B0477 /* Dennis Van Malder villo app */;
+			targetProxy = 3FA30D3520C2C2D7006B0477 /* PBXContainerItemProxy */;
+		};
+		3FA30D4120C2C2D7006B0477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA30D1F20C2C2D7006B0477 /* Dennis Van Malder villo app */;
+			targetProxy = 3FA30D4020C2C2D7006B0477 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA30D2720C2C2D7006B0477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA30D2820C2C2D7006B0477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA30D2C20C2C2D7006B0477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA30D2D20C2C2D7006B0477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA30D4620C2C2D7006B0477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FA30D4720C2C2D7006B0477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA30D4920C2C2D7006B0477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dennis Van Malder villo app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ehb.Dennis-Van-Malder-villo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA30D4A20C2C2D7006B0477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dennis Van Malder villo app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ehb.Dennis-Van-Malder-villo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FA30D4C20C2C2D7006B0477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dennis Van Malder villo appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ehb.Dennis-Van-Malder-villo-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dennis Van Malder villo app.app/Dennis Van Malder villo app";
+			};
+			name = Debug;
+		};
+		3FA30D4D20C2C2D7006B0477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dennis Van Malder villo appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ehb.Dennis-Van-Malder-villo-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dennis Van Malder villo app.app/Dennis Van Malder villo app";
+			};
+			name = Release;
+		};
+		3FA30D4F20C2C2D7006B0477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dennis Van Malder villo appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ehb.Dennis-Van-Malder-villo-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dennis Van Malder villo app";
+			};
+			name = Debug;
+		};
+		3FA30D5020C2C2D7006B0477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dennis Van Malder villo appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ehb.Dennis-Van-Malder-villo-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dennis Van Malder villo app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA30D1B20C2C2D7006B0477 /* Build configuration list for PBXProject "Dennis Van Malder villo app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA30D4620C2C2D7006B0477 /* Debug */,
+				3FA30D4720C2C2D7006B0477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA30D4820C2C2D7006B0477 /* Build configuration list for PBXNativeTarget "Dennis Van Malder villo app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA30D4920C2C2D7006B0477 /* Debug */,
+				3FA30D4A20C2C2D7006B0477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA30D4B20C2C2D7006B0477 /* Build configuration list for PBXNativeTarget "Dennis Van Malder villo appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA30D4C20C2C2D7006B0477 /* Debug */,
+				3FA30D4D20C2C2D7006B0477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA30D4E20C2C2D7006B0477 /* Build configuration list for PBXNativeTarget "Dennis Van Malder villo appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA30D4F20C2C2D7006B0477 /* Debug */,
+				3FA30D5020C2C2D7006B0477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA30D1820C2C2D7006B0477 /* Project object */;
+}
